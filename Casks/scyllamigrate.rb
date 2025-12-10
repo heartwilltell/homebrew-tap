@@ -3,7 +3,7 @@ cask "scyllamigrate" do
   name "scyllamigrate"
   desc "A lightweight schema migration tool for ScyllaDB"
   homepage "https://github.com/heartwilltell/scyllamigrate"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "scyllamigrate" do
   on_macos do
     on_intel do
       url "https://github.com/heartwilltell/scyllamigrate/releases/download/v#{version}/scyllamigrate_#{version}_darwin_x86_64.tar.gz"
-      sha256 "aad70fe2a3bc9768361d1b20d38d46c13ec38bffe0f025e49a5f2c875d604d4e"
+      sha256 "a82565c99c7f40d0821c65c18aa6ba6a8ca771631a13172d824c14225ee88b8d"
     end
     on_arm do
       url "https://github.com/heartwilltell/scyllamigrate/releases/download/v#{version}/scyllamigrate_#{version}_darwin_arm64.tar.gz"
-      sha256 "7250abbd02ae8f3e2a3d4ea0af291d80651e82fe1eb87d5860d4e2d4d0f6f814"
+      sha256 "33e792520ad11311626f6206faa5813701ceeee5fef09cfca11adb9b9389c3dd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/heartwilltell/scyllamigrate/releases/download/v#{version}/scyllamigrate_#{version}_linux_x86_64.tar.gz"
-      sha256 "181fac774f20fd4bdf9702705f81c7434b834faef66ed01302b46a5a905bcafc"
+      sha256 "59495fddfb41b89123726f5036d50668517c4603c02f55c93ad4ad18c1fca338"
     end
     on_arm do
       url "https://github.com/heartwilltell/scyllamigrate/releases/download/v#{version}/scyllamigrate_#{version}_linux_arm64.tar.gz"
-      sha256 "9bd56d670b0594483500f36e55c9171e4e741a4d1dd79a166bf4a1e9ad085f29"
+      sha256 "350919bcdcb96960237ec35c34a70a8c65f8a6fd0ca55a4c7c2c50ebebd63b75"
     end
   end
 
